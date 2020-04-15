@@ -7,22 +7,22 @@
     </head>
     <body id="fullbody">
         <div id="header">
-        <h3>I don't know what will happen to this site.</h3>
+        <h3>My Blog</h3>
         </div>
         <div id="formular">
         <form action="validate.php" method="POST">
             <fieldset style="width: 500px">
-            <legend>Formular</legend>
-            <label for="Vorname">Vorname*:</label><br>
+            <legend>Form</legend>
+            <label for="Vorname">First Name*:</label><br>
             <input type="text" name="Vorname" id="Vorname" value="" autocomplete="off" required><br>
-            <label for="Nachname">Nachname*:</label><br>
+            <label for="Nachname">Last Name*:</label><br>
             <input type="text" name="Nachname" id="Nachname" value="" autocomplete="off" required><br>
-            <label for="Mail">E-Mail Adresse*:</label><br>
+            <label for="Mail">e-Mail adress*:</label><br>
             <input type="email" name="Mail" id="Mail" value="" autocomplete="off" required><br> 
-            <label for="msgbox">Nachricht:</label><br>
+            <label for="msgbox">Message:</label><br>
             <textarea name="msgbox" id="msgbox" rows="10" cols="40"></textarea>
             <br>
-            <input type="submit" value="Senden">
+            <input type="submit" value="Send Form">
             </fieldset>
         </form>
         </div>
