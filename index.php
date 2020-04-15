@@ -10,7 +10,7 @@
         <h3>My Blog</h3>
         </div>
         <div id="formular">
-        <form action="validate.php" method="POST">
+        <form action="/mail/validate.php" method="POST">
             <fieldset style="width: 500px">
             <legend>Form</legend>
             <label for="Vorname">First Name*:</label><br>
@@ -26,7 +26,7 @@
             </fieldset>
         </form>
         </div>
-        <script src="darkmode.js"></script>
+        <script src="/js/darkmode.js"></script>
         <input id="button" type="submit" name="lightbutton" value="💡" onclick="darkmode()" style="width: 40px; height: 40px;"/>
     </body>
 </html>

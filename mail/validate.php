@@ -2,7 +2,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Validation</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="../style.css">
     </head>
     <body>
         <!-- Code for email form validation -->
@@ -20,6 +20,6 @@
         ?>
 
         <h3>Your Form has been sent!</h3>
-        <a href="index.php">Go back?</a>
+        <a href="../index.php">Go back?</a>
     </body>
 </html>
