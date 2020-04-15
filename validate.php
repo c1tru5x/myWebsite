@@ -7,6 +7,7 @@
     <body>
         <!-- Code for email form validation -->
         <?php
+        include 'mailadress.php'; #for $sendTo
         $fname = $_POST['Vorname'];
         $lname = $_POST['Nachname'];
         $emailaddr = $_POST['Mail'];
@@ -15,7 +16,7 @@
         $betreff = "$fname $lname Email: $emailaddr";
 
         #send mail
-        mail('gino.chris28@gmail.com',$betreff,$msg);
+        mail($sendTo,$betreff,$msg);
         ?>
 
         <h3>Your Form has been sent!</h3>
