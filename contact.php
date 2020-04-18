@@ -3,7 +3,7 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="shortcut icon" href="media/favicon.ico?v=2" type="image/x-icon">
-        <title>Welcome!</title>
+        <title>Contact</title>
     </head>
     <body id="fullbody">
         <div id="container">

@@ -1,8 +1,7 @@
 body 
 {
 	font-family: Arial, Helvetica, sans-serif;
-	background: rgb(115,0,255);
-	background: linear-gradient(90deg, rgba(115,0,255,1) 0%, rgba(0,212,255,1) 82%);
+	background: white;
 	/*Wenn der Winkel nicht 90*n ist dann 
 	wiederholt sich der Hintergrund.*/
 }
