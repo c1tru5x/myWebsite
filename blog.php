@@ -21,10 +21,10 @@
                     </ul>
                 </div>
                 <div id="main">
+                    <!-- .txt for every blog -->
                     <p>
-                        I develop things on this website. I don't know what it will look like in the end. <br>
-                        Maybe it will be a shop site, or just a blog entry page. <br>
-                        Let's see.     
+                    Blog things goes here: <br>
+                    -->
                     </p>
                 </div>
                 <script src="/js/darkmode.js"></script>

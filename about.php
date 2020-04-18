@@ -21,11 +21,7 @@
                     </ul>
                 </div>
                 <div id="main">
-                    <p>
-                        I develop things on this website. I don't know what it will look like in the end. <br>
-                        Maybe it will be a shop site, or just a blog entry page. <br>
-                        Let's see.     
-                    </p>
+                    <p>German Boy who is into metal music and IT Stuff.</p>
                 </div>
                 <script src="/js/darkmode.js"></script>
                 <input id="button" type="submit" name="lightbutton" value="💡" onclick="darkmode()" style="width: 40px; height: 40px;"/>
