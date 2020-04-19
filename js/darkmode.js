@@ -15,4 +15,7 @@ function darkmode()
     {
         cnt = 0;
     }
+
+    //save color in a cookie
+    document.cookie = "bgcolor="+ document.getElementsByTagName("body")[0].style.backgroundColor;
 }

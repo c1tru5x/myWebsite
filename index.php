@@ -5,7 +5,9 @@
         <link rel="shortcut icon" href="media/favicon.ico?v=2" type="image/x-icon">
         <title>Welcome!</title>
     </head>
-    <body id="fullbody">
+    <body onload="getColor(); setColor();" id="fullbody">
+        <script src="js/readCookies.js">
+        </script>
         <div id="container">
             <div id="content">
                 <div id="header">
