@@ -7,7 +7,7 @@
         <title>Contact</title>
     </head>
     <body onload="getColor(); setColor();" id="fullbody">
-        <script src="js/readCookies.js">
+        <script src="js/readCookies.js"></script>
         <script src="/js/darkmode.js"></script>
         </script>
         <div id="container">
