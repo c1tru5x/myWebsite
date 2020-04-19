@@ -6,7 +6,7 @@ function darkmode()
     }
     else
     {
-        document.getElementsByTagName("body")[0].style.backgroundColor = "white"
+        document.getElementsByTagName("body")[0].style.backgroundColor = "white";
     }
 
     //save color in a cookie
