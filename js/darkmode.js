@@ -1,19 +1,12 @@
-var cnt = 0;
-
 function darkmode()
 {
-    cnt++;
-    if(cnt%2 == 0)
-    {
-        document.getElementsByTagName("body")[0].style.backgroundColor = "white";
-    }
-    else
+    if(document.getElementsByTagName("body")[0].style.backgroundColor == "white")
     {
         document.getElementsByTagName("body")[0].style.backgroundColor = "#1f1f1f";
     }
-    if(cnt == 10)
+    else
     {
-        cnt = 0;
+        document.getElementsByTagName("body")[0].style.backgroundColor = "white"
     }
 
     //save color in a cookie
