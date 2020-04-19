@@ -7,7 +7,7 @@
         <title>Welcome!</title>
     </head>
     <body onload="getColor(); setColor();" id="fullbody">
-        <script src="js/readCookies.js"></script>
+        <script src="/js/readCookies.js"></script>
         <script src="/js/darkmode.js"></script>
         <div id="container">
             <div id="content">
@@ -30,9 +30,7 @@
                         Maybe it will be a shop site, or just a blog entry page. <br>
                         Let's see.     
                     </p>
-                </div>
-                
-                
+                </div>    
             </div>
             <div id="footer">
                 Copyright &copy; 2020 Christian Schmidt.

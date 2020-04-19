@@ -7,7 +7,7 @@
         <title>Contact</title>
     </head>
     <body onload="getColor(); setColor();" id="fullbody">
-        <script src="js/readCookies.js"></script>
+        <script src="/js/readCookies.js"></script>
         <script src="/js/darkmode.js"></script>
         </script>
         <div id="container">
@@ -26,6 +26,7 @@
                 </div>
                 <div id="main">
                 <input id="button" class="w3-btn w3-grey w3-round floatright" type="submit" name="lightbutton" value="💡" onclick="darkmode()" style="width: 45px; height: 40px;"/>
+                    <br>
                     Any Questions? Just send me your text! <br><br>
                     <form action="/mail/validate.php" method="POST">
                         <fieldset style="width: 500px">
@@ -39,7 +40,7 @@
                         <label for="msgbox">Message:</label><br>
                         <textarea name="msgbox" id="msgbox" rows="10" cols="40"></textarea>
                         <br>
-                        <input type="submit" value="Send Form">
+                        <input type="submit" class="w3-btn w3-grey w3-round floatright" value="Send Form">
                         </fieldset>
                     </form>
                 </div>

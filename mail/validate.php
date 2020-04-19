@@ -5,7 +5,23 @@
         <title>Validation</title>
         <link rel="stylesheet" type="text/css" href="../style.css">
     </head>
-    <body>
+    <body onload="getColor(); setColor();" id="fullbody">
+    <script src="../js/readCookies.js"></script>
+    <script src="../js/darkmode.js"></script>
+    <div id="container">
+        <div id="content">
+            <div id="header">
+            c1tru5x - thats what I do.
+            </div>
+            <div id="navbar">
+                <ul>
+                <li><a href="../index.php">Home</a></li>
+                <li><a href="../blog.php">Blog</a></li>
+                <li><a href="../dblogin.php">Database</a></li>
+                <li><a href="../contact.php">Contact</a></li>
+                <li><a href="../about.php">About</a></li>
+                </ul>
+            </div>
         <!-- Code for email form validation -->
         <?php
         include 'mailadress.php'; #for $sendTo
@@ -22,5 +38,7 @@
 
         <h3>Your Form has been sent!</h3>
         <a href="../index.php">Go back?</a>
+        </div>
+    </div>
     </body>
 </html>

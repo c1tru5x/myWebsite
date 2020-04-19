@@ -7,7 +7,7 @@
         <title>About</title>
     </head>
     <body onload="getColor(); setColor();" id="fullbody">
-        <script src="js/readCookies.js"></script>
+        <script src="/js/readCookies.js"></script>
         <script src="/js/darkmode.js"></script>
         <div id="container">
             <div id="content">
@@ -27,7 +27,6 @@
                 <input id="button" class="w3-btn w3-grey w3-round floatright" type="submit" name="lightbutton" value="💡" onclick="darkmode()" style="width: 45px; height: 40px;"/>
                     <p>German Boy who is into metal music and IT Stuff.</p>
                 </div>
-                
             </div>
             <div id="footer">
                 Copyright &copy; 2020 Christian Schmidt.

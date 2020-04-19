@@ -119,6 +119,8 @@ li.dropdown
 	width: auto;
 	color: white;
 	padding: 10px 0px 0px 0px;
+	padding-left: 10px;
+	min-height: 500px;
 }
 
 .floatleft

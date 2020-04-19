@@ -7,7 +7,7 @@
         <title>My Blog</title>
     </head>
     <body onload="getColor(); setColor();" id="fullbody">
-        <script src="js/readCookies.js"></script>
+        <script src="/js/readCookies.js"></script>
         <script src="/js/darkmode.js"></script>
         <div id="container">
             <div id="content">
