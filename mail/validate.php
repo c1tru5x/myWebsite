@@ -4,6 +4,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Validation</title>
         <link rel="stylesheet" type="text/css" href="../style.css">
+        <link rel="shortcut icon" href="../media/favicon.ico?v=2" type="image/x-icon">
     </head>
     <body onload="getColor(); setColor();" id="fullbody">
     <script src="../js/readCookies.js"></script>
@@ -22,6 +23,7 @@
                 <li><a href="../about.php">About</a></li>
                 </ul>
             </div>
+            <br>
         <!-- Code for email form validation -->
         <?php
         include 'mailadress.php'; #for $sendTo
@@ -33,11 +35,17 @@
         $betreff = "$fname $lname Email: $emailaddr";
 
         #send mail
-        mail($sendTo,$betreff,$msg);
+        if(!$fname || !$lname || !$emailaddr || !$msg)
+        {
+            echo "You left something empty. Try again!";
+        }
+        else
+        {
+            mail($sendTo,$betreff,$msg);
+            echo "Your form has been sent!";
+        }
         ?>
-
-        <h3>Your Form has been sent!</h3>
-        <a href="../index.php">Go back?</a>
+        <a href="../">Go back?</a>
         </div>
     </div>
     </body>
