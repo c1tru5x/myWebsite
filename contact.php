@@ -6,10 +6,10 @@
         <link rel="shortcut icon" href="media/favicon.ico?v=2" type="image/x-icon">
         <title>Contact</title>
     </head>
-    <body onload="getColor(); setColor();" id="fullbody">
+    <body onload="getColor(); setColor(); changeLabel();" id="fullbody">
         <script src="/js/readCookies.js"></script>
         <script src="/js/darkmode.js"></script>
-        </script>
+        <script src="/js/easyCaptcha.js"></script>
         <div id="container">
             <div id="content">
                 <div id="header">
@@ -28,7 +28,18 @@
                 <input id="button" class="w3-btn w3-grey w3-round floatright" type="submit" name="lightbutton" value="💡" onclick="darkmode()" style="width: 45px; height: 40px;"/>
                     <br>
                     Any Questions? Just send me your text! <br><br>
-                    <form action="/mail/validate.php" method="POST">
+                    <div id="captcha" class="floatright">
+                    <h4>Solve this Captcha before sending the form!</h4>
+                    <br>
+                    <label id="a" name="a">a</label>
+                    <label>-</label>
+                    <label id="b" name="b">b</label>
+                    <label>+</label>
+                    <label id="c" name="c">c</label>
+                    <label for="res">=</label>
+                    <input style="width:50px" type="text" name="res" id="res" value="" autocomplete="off" required><br>
+                    </div>
+                    <form onsubmit="return check();" action="/mail/validate.php" method="POST">
                         <fieldset style="width: 500px">
                         <legend>Form</legend>
                         <label for="Vorname">First Name*:</label><br>
