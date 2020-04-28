@@ -30,6 +30,11 @@
                     Blog things goes here: <br><br>
                     -->
                     </p>
+                <?php
+                    $blogtxt = fopen("blog/test.txt","r") or die ("Unable to open txt!");
+                    echo fread($blogtxt,filesize("blog/test.txt"));
+                    fclose($blogtxt);
+                ?> 
                 </div>
             </div>
             <div id="footer">
