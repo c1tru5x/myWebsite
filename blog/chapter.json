@@ -1,0 +1,20 @@
+{
+    "book":
+    [
+    
+    {
+        "chapter":1,
+        "title":"Intro",
+        "text":"Today I got rid of how to do the blog posting. This is done by reading a json file and parsing it with a foreach in php.",
+        "date":"29.May.2020"
+    },
+    {
+        "chapter":2,
+        "title":"My weird dream.",
+        "text":"As of many dreams of mine, this is another crazy one..",
+        "date":"29.May.2020"
+    }
+
+    ]
+}
+    

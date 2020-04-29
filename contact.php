@@ -27,9 +27,9 @@
                 <div id="main">
                 <input id="button" class="w3-btn w3-grey w3-round floatright" type="submit" name="lightbutton" value="💡" onclick="darkmode()" style="width: 45px; height: 40px;"/>
                     <br>
-                    Any Questions? Just send me your text! <br><br>
+                    Any questions? Just send me your text! <br><br>
                     <div id="captcha" class="floatright">
-                    <h4>Solve this Captcha before sending the form!</h4>
+                    <h4>Solve this captcha before sending the form!</h4>
                     <br>
                     <label id="a" name="a">a</label>
                     <label>-</label>

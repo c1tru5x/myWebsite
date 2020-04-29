@@ -25,10 +25,15 @@
                 </div>
                 <div id="main">
                 <input id="button" class="w3-btn w3-grey w3-round floatright" type="submit" name="lightbutton" value="💡" onclick="darkmode()" style="width: 45px; height: 40px;"/>
-                    <p>
-                        I develop things on this website. I don't know what it will look like in the end. <br>
-                        Maybe it will be a shop site, or just a blog entry page. <br>
-                        Let's see.     
+                <h4>Hello there!</h4>    
+                <p>
+                        Welcome to my website! I use this website to develop my skills in coding.<br><br>
+                        I want to progress in PHP and SQL (MySQLi). Also a blog is created where I write<br>
+                        things I think a lot about or just random things.. :) <br>
+                        We have a prog metal band aaaand when we have songs I OR we will post this here where I will be<br>
+                        making a seperat tab for.<br>
+                        Yeah so thats about what I do.<br><br>
+                        -c1tru5x     
                     </p>
                 </div>    
             </div>

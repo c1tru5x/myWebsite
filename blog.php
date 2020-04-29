@@ -25,15 +25,15 @@
                 </div>
                 <div id="main">
                 <input id="button" class="w3-btn w3-grey w3-round floatright" type="submit" name="lightbutton" value="💡" onclick="darkmode()" style="width: 45px; height: 40px;"/>
-                    <!-- .txt for every blog -->
-                    <p>
-                    Blog things goes here: <br><br>
-                    -->
-                    </p>
+                <br>
                 <?php
-                    $blogtxt = fopen("blog/test.txt","r") or die ("Unable to open txt!");
-                    echo fread($blogtxt,filesize("blog/test.txt"));
-                    fclose($blogtxt);
+                    $textfile = file_get_contents("blog/chapter.json");
+                    $content = json_decode($textfile,true);
+                    
+                    foreach($content["book"] as $data)
+                    {
+                        echo "Chapter: " . $data["chapter"] . " - <i>" . $data ["title"] . "</i><br><br>Date: " . $data ["date"] . "<br><br>"  . $data["text"] . "<br>___________<br><br>";
+                    }
                 ?> 
                 </div>
             </div>
