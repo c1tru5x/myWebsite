@@ -1,4 +1,5 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -32,7 +33,7 @@
                     
                     foreach($content["book"] as $data)
                     {
-                        echo "Chapter: " . $data["chapter"] . " - <i>" . $data ["title"] . "</i><br><br>Date: " . $data ["date"] . "<br><br>"  . $data["text"] . "<br>___________<br><br>";
+                        echo "Chapter: " . $data["chapter"] . " - <i>" . $data["title"] . "</i><br><br>Date: " . $data["date"] . "<br><br>"  . $data["text"] . "<br>___________<br><br>";
                     }
                 ?> 
                 </div>
