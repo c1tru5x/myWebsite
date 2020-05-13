@@ -256,7 +256,15 @@ li.dropdown
 	}
 	#navbar li{
 		text-align: center;
-		width: 100%;
+		width: 20%;
 	}
-
+	#navbar li a, .dropbtn 
+  	{
+		display: inline-block;
+		color: white;
+		text-align: center;
+		padding: 14px 1px;
+		text-decoration: none;
+  	}
+	
 }
