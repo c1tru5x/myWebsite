@@ -2,18 +2,6 @@ html{
 	box-sizing: border-box;
 }
 
-/* mobile first */
-
-@media only screen and (max-width: 600px)
-{
-	#header, #navbar li, #main , p{
-		width: 100%;
-		text-align: left;
-		word-wrap: break-word;
-	}
-
-}
-
 body 
 {
 	font-family: Arial, Helvetica, sans-serif;
@@ -258,3 +246,17 @@ li.dropdown
 .w3-border-pale-yellow,.w3-hover-border-pale-yellow:hover{border-color:#ffffcc!important}.w3-border-pale-blue,.w3-hover-border-pale-blue:hover{border-color:#e7ffff!important}
 /*form*/
 .w3-round-small{border-radius:2px}.w3-round,.w3-round-medium{border-radius:4px}.w3-round-large{border-radius:8px}.w3-round-xlarge{border-radius:16px}.w3-round-xxlarge{border-radius:32px}
+
+
+/*media*/
+@media only screen and (max-width: 600px)
+{
+	#container{
+		width: 100%;
+	}
+	#navbar li{
+		text-align: center;
+		width: 100%;
+	}
+
+}

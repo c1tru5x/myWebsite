@@ -30,7 +30,7 @@
                     <br>
                     Any questions? Just send me your text! <br><br>
                     <div id="captcha" class="floatright">
-                    <h4>Solve this captcha before sending the form!</h4>
+                    <h4 style="color: orange">Solve this captcha before sending the form!</h4>
                     <br>
                     <label id="a" name="a">a</label>
                     <label>-</label>
@@ -41,7 +41,7 @@
                     <input style="width:50px" type="text" name="res" id="res" value="" autocomplete="off" required><br>
                     </div>
                     <form onsubmit="return check();" action="/mail/validate.php" method="POST">
-                        <fieldset style="width: 500px">
+                        <fieldset style="width: 370px">
                         <legend>Form</legend>
                         <label for="Vorname">First Name*:</label><br>
                         <input type="text" name="Vorname" id="Vorname" value="" autocomplete="off" required><br>
@@ -52,7 +52,7 @@
                         <label for="msgbox">Message:</label><br>
                         <textarea name="msgbox" id="msgbox" rows="10" cols="40"></textarea>
                         <br>
-                        <input type="submit" class="w3-btn w3-grey w3-round floatright" value="Send Form">
+                        <input type="submit" class="w3-btn w3-grey w3-round floatleft" value="Send Form">
                         </fieldset>
                     </form>
                 </div>
