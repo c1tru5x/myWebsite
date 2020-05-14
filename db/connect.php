@@ -39,7 +39,21 @@
                 if (!$conn) {
                     die("Connection failed: " . mysqli_connect_error());
                 }
-                echo "Connected successfully to $dbname";
+                echo "Connected successfully to $dbname" . "<br>";
+
+                $sql = "INSERT INTO ItemList(ITEM) VALUES('Banana')";
+
+                if($conn->query($sql)===TRUE)
+                {
+                    echo "Inserted Data!";
+                }
+                else
+                {
+                    echo "Failed inserting Data!";
+                }
+
+                $conn->close();
+
                 ?>
                 
                 <input id="button" class="w3-btn w3-grey w3-round floatright" type="submit" name="lightbutton" value="💡" onclick="darkmode()" style="width: 45px; height: 40px;"/>
