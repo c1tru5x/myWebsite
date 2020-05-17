@@ -10,5 +10,5 @@ function darkmode()
     }
 
     //save color in a cookie
-    document.cookie = "bgcolor="+ document.getElementsByTagName("body")[0].style.backgroundColor + " ;max-age=31536000";
+    document.cookie = "bgcolor="+ document.getElementsByTagName("body")[0].style.backgroundColor + " ;max-age=31536000" + " ;sameSite=Lax";
 }
