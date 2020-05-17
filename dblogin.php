@@ -36,6 +36,42 @@
                         <input type="password" name="pwd" id="pwd" value="" autocomplete="off" required><br><br>
                         <input type="submit" class="w3-btn w3-grey w3-round" value="Log In">
                     </form>
+                </div>
+                <div id="table" class="floatleft">
+                <table>
+                    <tr><th>Collected Bananas</th></tr>
+                    <tr><td>
+                    <?php
+
+                    include 'mail/mailadress.php';
+                    //conntect to db and read items
+                    $servername = "localhost";
+                    $username = $dbUSER;
+                    $password = $dbPASS;
+                    $dbname = "c1tru5x_testdb";
+                    
+                    // Create connection
+                    $conn = mysqli_connect($servername, $username, $password, $dbname);
+                    
+                    // Check connection
+                    if (!$conn) {
+                        die("Connection failed: " . mysqli_connect_error());
+                    }
+
+                    //count items
+                    $sql = "SELECT COUNT('ITEM') as count FROM ItemList";
+                    
+                    $result = $conn->query($sql);
+                    $count = $result->fetch_assoc()["count"];
+
+                    echo $count;
+
+                    $result->free_result();
+                    
+                    $conn->close();
+                        ?>
+                    </td></tr>
+                </table>
                 </div> 
                 </div> 
                 </div>
